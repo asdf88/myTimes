@@ -2,12 +2,20 @@
   display: flex;
   margin: 0 0;
   border-bottom: 2px solid black;
-  justify-content: space-between;
+  justify-content: space-around;;
   align-items: center;
+}
+
+#logo {
+  display: inline;
 }
 
 #logoImage {
   border-right: 2px solid mediumaquamarine;
+}
+
+#header nav span {
+  display: inline-block;
 }
 
 .headerFont {
