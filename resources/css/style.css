@@ -11,11 +11,15 @@
   border: 1px solid black;
   margin-left: 0;
   padding-left: 30px;
-  flex-grow: 1; 
+  flex-grow: 1;
 }
 
 #logoImage {
   border-right: 2px solid mediumaquamarine;
+}
+
+#logo h4 {
+  display: inline-block;
 }
 
 #nav {
