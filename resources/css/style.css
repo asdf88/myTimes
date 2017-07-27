@@ -1,8 +1,7 @@
 #header {
   display: flex;
-  margin: 0 0;
   border-bottom: 2px solid black;
-  justify-content: space-around;;
+  justify-content: space-between;
   align-items: center;
 }
 
@@ -14,7 +13,7 @@
   border-right: 2px solid mediumaquamarine;
 }
 
-#header nav span {
+#navSpans {
   display: inline-block;
 }
 
@@ -22,6 +21,7 @@
   font-family: Verdana;
   font-size: 14px;
   font-weight: bold;
+  color: black; 
 }
 
 .logoColor {
