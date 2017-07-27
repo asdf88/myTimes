@@ -7,9 +7,11 @@
 }
 
 #logo {
+  display: inline-block;
   border: 1px solid black;
   margin-left: 0;
   padding-left: 30px;
+  flex-grow: 1; 
 }
 
 #logoImage {
@@ -18,7 +20,7 @@
 
 #nav {
   margin-left: 0;
-  padding-right: 30px; 
+  padding-right: 30px;
 }
 
 #nav nav ul li {
