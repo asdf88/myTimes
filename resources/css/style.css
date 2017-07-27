@@ -1,25 +1,32 @@
 #header {
-  display: flex;
+  display: inline-flex;
   border-bottom: 2px solid black;
   justify-content: space-between;
   align-items: center;
 }
 
 #logo {
-  display: inline-block;
+  display: flex;
+  flex-wrap: wrap;
   margin-left: 30px;
+  flex-grow: 1;
 }
 
 #logoImage {
   border-right: 2px solid mediumaquamarine;
 }
 
-#header nav {
+#nav {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 0;
   margin-right: 30px;
+  justify-content: space-between;
 }
 
-#navSpans {
-  display: inline-block;
+#nav nav ul li {
+  display: inline;
+  list-style-type: none;
 }
 
 .headerFont {
