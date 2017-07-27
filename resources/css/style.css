@@ -1,0 +1,21 @@
+#header {
+  display: flex;
+  margin: 0 0;
+  border-bottom: 2px solid black;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#logoImage {
+  border-right: 2px solid mediumaquamarine;
+}
+
+.headerFont {
+  font-family: Verdana;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.logoColor {
+  color: mediumaquamarine;
+}
