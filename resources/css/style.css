@@ -21,6 +21,7 @@
 
 #logo h4 {
   display: inline-block;
+  padding-left: 10px; 
 }
 
 #nav {
