@@ -167,3 +167,37 @@
   border-bottom: 1px solid black;
   width: 85%;
 }
+
+#footer {
+  display: flex;
+  background-color: MediumAquamarine;
+  margin: auto;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 300px;
+  margin-top: 50px;
+  width: 100%; 
+}
+
+#footer ul li {
+  display: inline;
+  list-style-type: none;
+}
+
+#footer ul li .footerFont {
+  font-family: Verdana;
+  font-size: 12px;
+  color: black;
+  padding-right: 20px;
+}
+
+#myTimes {
+  font-family: Georgia;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+  padding-right: 30px;
+  border-right: 2px solid white;
+  margin-right: 40px;
+}
