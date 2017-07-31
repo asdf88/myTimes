@@ -61,8 +61,8 @@
   flex-direction: column;
   border: 1px solid black;
   align-items: flex-start;
-  height: 550px;
-  align-items: baseline;
+  height: auto;
+  align-items: stretch;
 }
 
 .large {
@@ -82,6 +82,7 @@
   margin: 0 0;
   border: 1px solid black;
   background-image: url(../images/img-story-main.png);
+  height: 300px;
 }
 
 .oneLine2 {
@@ -89,6 +90,7 @@
   margin: 0 0;
   border: 1px solid black;
   background-image: url(../images/img-story-2.png);
+  height: 300px;
 }
 
 .oneLine3 {
@@ -96,6 +98,7 @@
   margin: 0 0;
   border: 1px solid black;
   background-image: url(../images/img-story-3.png);
+  height: 300px;
 }
 
 .oneLine4 {
@@ -103,6 +106,7 @@
   margin: 0 0;
   border: 1px solid black;
   background-image: url(../images/img-story-1.png);
+  height: 300px;
 }
 
 .largeOne,
