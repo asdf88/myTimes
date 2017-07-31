@@ -76,6 +76,7 @@
 
 .small {
   width: 240px;
+  align-items: center;
 }
 
 .oneLine1 {
@@ -142,4 +143,27 @@
   font-weight: bold;
   font-size: 30px;
   color: black;
+}
+
+.newsBites {
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+.newsItems ul {
+  list-style-type: none;
+}
+
+.newsItems {
+  display: flex;
+  flex-direction: column;
+  margin: 0 0;
+  padding: 15px 15px;
+  background-color: WhiteSmoke;
+  font-family: Verdana;
+  font-size: 12px;
+  color: DimGray;
+  border-bottom: 1px solid black;
+  width: 85%;
 }
